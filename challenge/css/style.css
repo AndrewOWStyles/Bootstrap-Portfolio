@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(206, 206, 206);
+}
+
+.navbar {
+    height: 100px;
+    padding: 0px 20px 0px 20px;
+}
+
+#navbarNav {
+    justify-content: flex-end;
+    width: 600px;
+}
+
+.navbar-brand {
+    padding-left: 50px;
+    font-size: xx-large;
+}
+
+.navbar-nav {
+
+}
+
+.nav-link {
+    margin: 0px 50px 0px 50px;
+    font-size: large;
+}
+
+.jumbotron {
+    height: 300px;
+}
+
+#about {
+    padding-bottom: 50px;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.cardContainer {
+    height: 450px;
+}
+
+.card {
+    height: 400px;
+    padding: 10px;
+}
+
+.card-footer {
+    margin-top: 50px;
+    height: 200px;
+}
