@@ -19,13 +19,15 @@ body {
     font-size: xx-large;
 }
 
-.navbar-nav {
 
-}
 
 .nav-link {
     margin: 0px 50px 0px 50px;
     font-size: large;
+}
+
+.nav-link:hover {
+    opacity: 50%;
 }
 
 .jumbotron {
@@ -42,15 +44,49 @@ h2 {
 }
 
 .cardContainer {
-    height: 450px;
+    height: 500px;
+}
+
+.img:hover {
+    opacity: 30%;
 }
 
 .card {
-    height: 400px;
+    height: 475px;
     padding: 10px;
 }
 
 .card-footer {
     margin-top: 50px;
     height: 200px;
+}
+
+#contact {
+    display: flex;
+}
+
+.footer-title {
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    border-right: solid black 5px;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    border-right: solid black 5px;
+}
+
+.footer-list a {
+    width: 400px;
+    color: rgb(2, 2, 2);
+    padding: 20px;
+
 }
